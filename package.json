@@ -1,0 +1,26 @@
+{
+  "name": "revoke-all-auth-tokens",
+  "version": "1.0.0",
+  "description": "Some local scripts to make it easier for you to work with farcaster auth tokens.",
+  "scripts": {
+    "revoke": "ts-node revoke.ts",
+    "revoke-all": "ts-node revoke-all.ts",
+    "create-authtoken": "ts-node create-authtoken.ts",
+    "create-ten-minute-token": "ts-node create-ten-minute-token.ts"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "author": "David Furlong",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "canonicalize": "^1.0.8",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
