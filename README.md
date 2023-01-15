@@ -16,7 +16,7 @@ Is a set of utility scripts for the farcaster api around generating and revoking
 
 Replace "MK-....==" with the auth token you want to revoke
 
-`npm run revoke MK-rDdfdstxMRoM4TWzfPuz+CSQ2JJW6CaOj+mN+fr2Gq6lCyRddYXceCdBfRGaWrij07sFf0DhMwCmopf+NPYfw==`
+`npm run revoke MK-rDdfdstxfsdfFf0DhMwCmopf+NPYfw==`
 
 ## Revoke all auth tokens
 
