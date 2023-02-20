@@ -1,4 +1,4 @@
-# Farcaster auth tokens
+# Warpcast.com API auth tokens for accessing Farcaster data
 
 Is a set of utility scripts for the warpcast.com API for Farcaster around generating and revoking auth tokens
 
