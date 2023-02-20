@@ -1,6 +1,6 @@
 # Farcaster auth tokens
 
-Is a set of utility scripts for the farcaster api around generating and revoking auth tokens
+Is a set of utility scripts for the warpcast.com API for Farcaster around generating and revoking auth tokens
 
 # Setup
 
