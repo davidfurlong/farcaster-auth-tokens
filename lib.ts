@@ -6,7 +6,7 @@ import axios from "axios";
 export async function revokeAuthToken(
   authenticationToken: string
 ): Promise<true> {
-  await axios.delete("https://api.farcaster.xyz/v2/auth", {
+  await axios.delete("https://api.warpcast.com/v2/auth", {
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${authenticationToken}`,
@@ -76,7 +76,7 @@ async function generateFcAuthenticationToken({
   bearerToken: string;
   payload: string;
 }): Promise<{ secret: string; expiresAt: number }> {
-  const res = await axios.put("https://api.farcaster.xyz/v2/auth", payload, {
+  const res = await axios.put("https://api.warpcast.com/v2/auth", payload, {
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${bearerToken}`,
